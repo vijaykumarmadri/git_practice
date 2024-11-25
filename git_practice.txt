@@ -14,8 +14,10 @@ int main() {
     int b;
     cin>>a>>b;
     int result=add(a,b);
+    //print the result
     cout<<"sum of A and B is :"<<result<<endl;
     int result1=subtract(a,b);
+   //print the result1
     cout<<"difference of A and B is :"<<result1<<endl;
 
     return 0;
